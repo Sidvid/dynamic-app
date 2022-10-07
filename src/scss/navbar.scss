@@ -1,0 +1,25 @@
+.navbar {
+  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  // /* Created with https://www.css-gradient.com */
+  background: #a0333d;
+  background: -webkit-linear-gradient(top left,#c60df9,#f4f641);
+  background: -moz-linear-gradient(top left, #c60df9,#f4f641);
+  background: linear-gradient(to bottom right,#c60df9,#f4f641);
+
+  p{
+    color: white;
+    cursor: pointer;
+    &:active{
+        border-bottom: solid aqua;
+    }
+    &:hover{
+        color: aqua;
+       
+  }
+}
+}
